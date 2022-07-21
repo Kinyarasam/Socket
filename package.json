@@ -1,0 +1,25 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "chat App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kinyarasam/Socket.git"
+  },
+  "author": "Kinyarasam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kinyarasam/Socket/issues"
+  },
+  "homepage": "https://github.com/Kinyarasam/Socket#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
+}
